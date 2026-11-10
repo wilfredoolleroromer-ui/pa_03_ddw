@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto-Motolandia</title>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="shortcut icon" href="imagenes/favicon.png" type="image/x-icon">
+    <script src="https://kit.fontawesome.com/dc9dce5018.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="cabecera">
+        <div class="logo">MOTOLANDIA</div>
+        <nav>
+            <ul>
+                <li><a href="index.html"><i class="fa-solid fa-motorcycle"></i>Inicio</a></li>
+                <li><a href="almacen.html"><i class="fa-solid fa-warehouse"></i>Almacen</a></li>
+                <li><a href="blog.html"><i class="fa-solid fa-hammer"></i>Blog</a></li>
+                <li><a href="videos.html"><i class="fa-solid fa-video"></i>Videos</a></li>
+                <li><a href="contacto.html"><i class="fa-solid fa-envelope"></i>Contacto</a></li>
+                <li><a href="nosotros.html"><i class="fa-solid fa-users"></i>Nosotros</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="contacto">
+            <div class="fila-superior">
+                <div class="columna-tabla">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Informacion de Contacto</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Dirección:</td>
+                                <td>Av. de la Marina, Pueblo Libre 15084</td>
+                            </tr>
+                            <tr>
+                                <td>Teléfono:</td>
+                                <td>+51 987 654 321</td>
+                            </tr>
+                            <tr>
+                                <td>Email:</td>
+                                <td>info@motolandia.com</td>
+                            </tr>
+                        </tbody>
+                        <thead>
+                            <tr>
+                                <th colspan="2">Horario de Atención</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Lunes a Viernes:</td>
+                                <td>9:00 AM - 6:00 PM</td>
+                            </tr>
+                            <tr>
+                                <td>Sábados:</td>
+                                <td>10:00 AM - 2:00 PM</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="columna-formulario">
+                    <form action="enviar.php" method="post">
+                        <label>Nombre:</label>
+                        <input type="text" id="nombre" name="nombre" required>
+
+                        <label>Celular:</label>
+                        <input type="tel" id="celular" name="celular" placeholder="999 999 999" required>
+                        
+                        <label>Email:</label>
+                        <input type="email" id="email" name="email" required>
+
+                        <label>RUC-Empresa (Opcional):</label>
+                        <input type="text" id="ruc" name="ruc">
+                        
+                        <label>Mensaje:</label>
+                        <textarea id="mensaje" name="mensaje" rows="5" placeholder="Escribe tu mensaje aqui" required></textarea>
+
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+            <div class="bloque-mapa">
+                <h2>Ubicación de Motolandia</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3901.4506684032785!2d-77.07197439999995!3d-12.081269599999992!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c90ec8ea4071%3A0xad3273fc21bf0686!2sAv.%20de%20la%20Marina%2C%20Pueblo%20Libre%2015084!5e0!3m2!1ses-419!2spe!4v1794233079971!5m2!1ses-419!2spe" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+            </div>    
+        </section>
+    </main>
+    <footer>
+        <ul class="redes">
+            <li><a href="https://www.facebook.com/" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+            <li><a href="https://www.instagram.com/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://x.com/" target="_blank"><i class="fa-brands fa-square-x-twitter"></i></a></li>
+            <li><a href="https://www.tiktok.com/" target="_blank"><i class="fa-brands fa-tiktok"></i></a></li>
+        </ul>
+        <p>&copy; 2026 Motolandia. Wilfredo Ollero Romero.</p>
+    </footer>
+</body>
+</html>
